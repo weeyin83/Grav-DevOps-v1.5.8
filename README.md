@@ -1,6 +1,6 @@
 # Grav-DevOps-v1.5.8
 
-This is a repo that holds the Grav installation files, the Quark theme and the Admin plugin.  It is based on version 1.5.8.  This repo isn't maintained and has just been created as an example repo for blog post - 
+This is a repo that holds the Grav installation files, the Quark theme and the Admin plugin.  It is based on version 1.5.8.  This repo isn't maintained and has just been created as an example repo for blog post - https://www.techielass.com/azure-devops-by-an-it-pro
 
 ## Credits
 
