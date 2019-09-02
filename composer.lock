@@ -278,9 +278,9 @@
             "authors": [
                 {
                     "name": "Jesse G. Donat",
+                    "role": "Developer",
                     "email": "donatj@gmail.com",
-                    "homepage": "http://donatstudios.com",
-                    "role": "Developer"
+                    "homepage": "http://donatstudios.com"
                 }
             ],
             "description": "Lightning fast, minimalist PHP UserAgent string parser.",
@@ -428,8 +428,8 @@
             "authors": [
                 {
                     "name": "Filipe Dobreira",
-                    "homepage": "https://github.com/filp",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "homepage": "https://github.com/filp"
                 }
             ],
             "description": "php error handling for cool kids",
@@ -646,15 +646,15 @@
             "authors": [
                 {
                     "name": "Craig Duncan",
+                    "role": "Developer",
                     "email": "git@duncanc.co.uk",
-                    "homepage": "https://github.com/duncan3dc",
-                    "role": "Developer"
+                    "homepage": "https://github.com/duncan3dc"
                 },
                 {
                     "name": "Joe Tannenbaum",
+                    "role": "Developer",
                     "email": "hey@joe.codes",
-                    "homepage": "http://joe.codes/",
-                    "role": "Developer"
+                    "homepage": "http://joe.codes/"
                 }
             ],
             "description": "PHP's best friend for the terminal. CLImate allows you to easily output colored text, special formats, and more.",
@@ -711,9 +711,9 @@
             "authors": [
                 {
                     "name": "Matthias Mullie",
+                    "role": "Developer",
                     "email": "minify@mullie.eu",
-                    "homepage": "http://www.mullie.eu",
-                    "role": "Developer"
+                    "homepage": "http://www.mullie.eu"
                 }
             ],
             "description": "CSS & JavaScript minifier, in PHP. Removes whitespace, strips comments, combines files (incl. @import statements and small assets in CSS files), and optimizes/shortens a few common programming patterns.",
@@ -761,9 +761,9 @@
             "authors": [
                 {
                     "name": "Matthias Mullie",
+                    "role": "Developer",
                     "email": "pathconverter@mullie.eu",
-                    "homepage": "http://www.mullie.eu",
-                    "role": "Developer"
+                    "homepage": "http://www.mullie.eu"
                 }
             ],
             "description": "Relative path converter",
@@ -878,8 +878,8 @@
             "authors": [
                 {
                     "name": "Tom Van Herreweghe",
-                    "homepage": "http://theanalogguy.be",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "homepage": "http://theanalogguy.be"
                 }
             ],
             "description": "Object-Oriented EXIF parsing",
@@ -1256,26 +1256,27 @@
         },
         {
             "name": "rockettheme/toolbox",
-            "version": "1.4.2",
+            "version": "1.4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rockettheme/toolbox.git",
-                "reference": "93f5c3d5e173cee7419df20eed52711471abbc3e"
+                "reference": "e7010c2a956aff241dfa100ab8aef5b6cf83892a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rockettheme/toolbox/zipball/93f5c3d5e173cee7419df20eed52711471abbc3e",
-                "reference": "93f5c3d5e173cee7419df20eed52711471abbc3e",
+                "url": "https://api.github.com/repos/rockettheme/toolbox/zipball/e7010c2a956aff241dfa100ab8aef5b6cf83892a",
+                "reference": "e7010c2a956aff241dfa100ab8aef5b6cf83892a",
                 "shasum": ""
             },
             "require": {
+                "ext-json": "*",
                 "php": ">=5.4.0",
                 "pimple/pimple": "~3.0",
                 "symfony/event-dispatcher": ">2.5",
                 "symfony/yaml": ">2.5"
             },
             "require-dev": {
-                "phpunit/phpunit": "~5.1.5"
+                "phpunit/phpunit": "~6"
             },
             "type": "library",
             "autoload": {
@@ -1301,7 +1302,7 @@
                 "php",
                 "rockettheme"
             ],
-            "time": "2018-08-08T18:03:32+00:00"
+            "time": "2019-03-20T19:59:17+00:00"
         },
         {
             "name": "seld/cli-prompt",
@@ -1887,19 +1888,19 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
+                    "role": "Lead Developer",
                     "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
+                    "homepage": "http://fabien.potencier.org"
                 },
                 {
                     "name": "Armin Ronacher",
-                    "email": "armin.ronacher@active-4.com",
-                    "role": "Project Founder"
+                    "role": "Project Founder",
+                    "email": "armin.ronacher@active-4.com"
                 },
                 {
                     "name": "Twig Team",
-                    "homepage": "https://twig.symfony.com/contributors",
-                    "role": "Contributors"
+                    "role": "Contributors",
+                    "homepage": "https://twig.symfony.com/contributors"
                 }
             ],
             "description": "Twig, the flexible, fast, and secure template language for PHP",
@@ -3001,6 +3002,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2015-10-02T06:51:40+00:00"
         },
         {
