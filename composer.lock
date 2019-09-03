@@ -245,16 +245,16 @@
         },
         {
             "name": "donatj/phpuseragentparser",
-            "version": "v0.11.1",
+            "version": "v0.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/donatj/PhpUserAgent.git",
-                "reference": "0eab93a89a1a73a087e795abc96d5777c3d48b64"
+                "reference": "5f2da266d2a386f9b231d4344ae37baf7a467c2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/donatj/PhpUserAgent/zipball/0eab93a89a1a73a087e795abc96d5777c3d48b64",
-                "reference": "0eab93a89a1a73a087e795abc96d5777c3d48b64",
+                "url": "https://api.github.com/repos/donatj/PhpUserAgent/zipball/5f2da266d2a386f9b231d4344ae37baf7a467c2d",
+                "reference": "5f2da266d2a386f9b231d4344ae37baf7a467c2d",
                 "shasum": ""
             },
             "require": {
@@ -268,7 +268,7 @@
             "type": "library",
             "autoload": {
                 "files": [
-                    "Source/UserAgentParser.php"
+                    "src/UserAgentParser.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -292,7 +292,7 @@
                 "user agent",
                 "useragent"
             ],
-            "time": "2018-10-25T20:22:53+00:00"
+            "time": "2019-03-08T20:52:23+00:00"
         },
         {
             "name": "erusev/parsedown",
